@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="361f7e5c-707d-4c40-805c-b88ac161286b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/04-HTML_Git/Solved/Basic-HTML-Bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Solved/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Solved/html-bio-with-css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Demo/assets/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_1/html-bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_2/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_2/html-bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_3/assets/style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_3/html-bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_4/HTML/html-bio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_4/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_WorkingExample/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Solved/RelativePaths_WorkingExample/html-bio-with-css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Develop/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/05-BasicCSS/quick-example-internal-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/05-BasicCSS/quick-example-internal-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/IMG_3340.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/html-bio-with-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/html-bio-with-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Demo/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Demo/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Demo/html-bio-with-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Demo/html-bio-with-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_1/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_1/html-bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_2/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_2/html-bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_3/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_3/html-bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_4/HTML/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_4/HTML/html-bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1hvKka17J4Mc6x3GKcg3q0Rmad3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="361f7e5c-707d-4c40-805c-b88ac161286b" name="Default Changelist" comment="" />
+      <created>1600886270083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600886270083</updated>
+      <workItem from="1600886271384" duration="212000" />
+      <workItem from="1600886521040" duration="1806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1861" height="297" key="GridCell.Tab.0.bottom" timestamp="1600887120141">
+      <screen x="-1920" y="23" width="1920" height="1106" />
+    </state>
+    <state width="1861" height="297" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120141" />
+    <state width="1861" height="297" key="GridCell.Tab.0.center" timestamp="1600887120140">
+      <screen x="-1920" y="23" width="1920" height="1106" />
+    </state>
+    <state width="1861" height="297" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120140" />
+    <state width="1861" height="297" key="GridCell.Tab.0.left" timestamp="1600887120139">
+      <screen x="-1920" y="23" width="1920" height="1106" />
+    </state>
+    <state width="1861" height="297" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120139" />
+    <state width="1861" height="297" key="GridCell.Tab.0.right" timestamp="1600887120140">
+      <screen x="-1920" y="23" width="1920" height="1106" />
+    </state>
+    <state width="1861" height="297" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120140" />
+  </component>
+</project>

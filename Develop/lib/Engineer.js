@@ -5,15 +5,15 @@ const inquirer = require("inquirer");
 class Engineer extends Employee{
     constructor(name, id, email, gitHubUname) {
         super(name, email, id);
-        this.gitHub = gitHub;
+        this.gitHubUname = gitHubUname;
     }
     getGitHubUName() {
-        return this.getGitHub()
+        return this.gitHubUname;
     }
     getRole() {
         return "Engineer";
     }
-    gitUserName() {
+    gitUserEngineer() {
         inquirer.prompt([
             {
                 type: "input",

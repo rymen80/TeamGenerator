@@ -37,6 +37,8 @@
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/me.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12-MySQL/01-Activities/08-playlistRead/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12-MySQL/01-Activities/08-playlistRead/playlist.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/05-BasicCSS/quick-example-internal-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/05-BasicCSS/quick-example-internal-css.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/06-HTML_CSS_Layout/Unsolved/IMG_3340.jpg" beforeDir="false" />
@@ -49,12 +51,12 @@
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_3/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_3/html-bio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_4/HTML/html-bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_4/HTML/html-bio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Develop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Develop/lib/Employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/lib/Employee.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Develop/lib/Engineer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/lib/Engineer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Develop/lib/Intern.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/lib/Intern.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Develop/lib/Manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/lib/Manager.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -111,7 +114,10 @@
       <updated>1600886270083</updated>
       <workItem from="1600886271384" duration="212000" />
       <workItem from="1600886521040" duration="9116000" />
-      <workItem from="1601049914118" duration="9384000" />
+      <workItem from="1601049914118" duration="9887000" />
+      <workItem from="1601138049376" duration="1680000" />
+      <workItem from="1601154459883" duration="3286000" />
+      <workItem from="1601158332693" duration="2365000" />
     </task>
     <servers />
   </component>
@@ -131,34 +137,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1601065053772">
-      <screen x="-1920" y="0" width="1920" height="1200" />
+    <state width="1669" height="405" key="GridCell.Tab.0.bottom" timestamp="1601157938590">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1200@-1920.0.1920.1200" timestamp="1601065053772" />
+    <state width="1669" height="405" key="GridCell.Tab.0.bottom/0.23.1440.827/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601157938590" />
+    <state width="1669" height="405" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601139721739" />
     <state width="1861" height="297" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120141" />
     <state width="1861" height="297" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1109@-1920.23.1920.1109" timestamp="1600910287957" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1601065053770">
-      <screen x="-1920" y="0" width="1920" height="1200" />
+    <state width="1234" height="247" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.989@-1920.23.1920.989" timestamp="1601095448986" />
+    <state width="1669" height="405" key="GridCell.Tab.0.center" timestamp="1601157938589">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1200@-1920.0.1920.1200" timestamp="1601065053770" />
+    <state width="1669" height="405" key="GridCell.Tab.0.center/0.23.1440.827/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601157938589" />
+    <state width="1669" height="405" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601139721738" />
     <state width="1861" height="297" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120140" />
     <state width="1861" height="297" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1109@-1920.23.1920.1109" timestamp="1600910287956" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1601065053769">
-      <screen x="-1920" y="0" width="1920" height="1200" />
+    <state width="1234" height="247" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.989@-1920.23.1920.989" timestamp="1601095448985" />
+    <state width="1669" height="405" key="GridCell.Tab.0.left" timestamp="1601157938589">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1200@-1920.0.1920.1200" timestamp="1601065053769" />
+    <state width="1669" height="405" key="GridCell.Tab.0.left/0.23.1440.827/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601157938589" />
+    <state width="1669" height="405" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601139721738" />
     <state width="1861" height="297" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120139" />
     <state width="1861" height="297" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1109@-1920.23.1920.1109" timestamp="1600910287955" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1601065053771">
-      <screen x="-1920" y="0" width="1920" height="1200" />
+    <state width="1234" height="247" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.989@-1920.23.1920.989" timestamp="1601095448985" />
+    <state width="1669" height="405" key="GridCell.Tab.0.right" timestamp="1601157938589">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1200@-1920.0.1920.1200" timestamp="1601065053771" />
+    <state width="1669" height="405" key="GridCell.Tab.0.right/0.23.1440.827/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601157938589" />
+    <state width="1669" height="405" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601139721739" />
     <state width="1861" height="297" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1106@-1920.23.1920.1106" timestamp="1600887120140" />
     <state width="1861" height="297" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1109@-1920.23.1920.1109" timestamp="1600910287956" />
+    <state width="1234" height="247" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.989@-1920.23.1920.989" timestamp="1601095448986" />
     <state x="751" y="249" key="RollbackChangesDialog" timestamp="1601094408586">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="249" key="RollbackChangesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1601094408586" />
+    <state x="-1455" y="160" key="SettingsEditor" timestamp="1601156297325">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1455" y="160" key="SettingsEditor/0.23.1440.827/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1601156297325" />
     <state x="-1295" y="285" key="run.anything.popup" timestamp="1601059255622">
       <screen x="-1920" y="0" width="1920" height="1200" />
     </state>

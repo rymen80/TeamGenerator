@@ -1,6 +1,6 @@
 // TODO: Write code to define and export the Manager class. HINT: This class should inherit from Employee.
 const Employee = require("./Employee");
-const inquirer = require("inquirer");
+
 
 class Manager extends Employee{
     constructor(name, id, email, officeNumber) {
@@ -13,14 +13,6 @@ class Manager extends Employee{
     getRole() {
         return "Manager";
     }
-    officeNumManager() {
-        inquirer.prompt([
-            {
-                type: "input",
-                name: "OfficeNum",
-                message: "Please enter your office number:"
-            }
-        ]);
-    }
+
 }
 module.exports = Manager;

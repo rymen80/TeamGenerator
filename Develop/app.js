@@ -12,6 +12,14 @@ const render = require("./lib/htmlRenderer");
 
 const employees = [];
 
+const initialQuestion = [
+    {
+        type: 'list',
+            choices: ['manager','engineer','intern'],
+        message: 'Would you like to add a team member?',
+        name: 'addTeamMember',
+    }
+]
 
 const managerQuestions =[
     // start with the manager
@@ -36,10 +44,10 @@ const managerQuestions =[
         message: "Please Enter the managers office number:"
     },
     {
-        type: 'checkbox',
-        choices: ['Yes','No'],
-        message: 'Would you like to add an Engineer?',
-        name: 'addEngineer',
+        type: 'list',
+        choices: ['manager','engineer','intern'],
+        message: 'Would you like to add an additional team member?',
+        name: 'addTeamMember',
     }
     ];
 
@@ -52,7 +60,7 @@ const engineerQuestions =[
     },
     {
         type: 'input',
-        name: 'engineID',
+        name: 'engineerID',
         message: "Please Enter the engineer's ID:"
     },
     {
@@ -66,10 +74,10 @@ const engineerQuestions =[
         message: "Please Enter the engineer's gitHub username:"
     },
     {
-        type: 'checkbox',
-        choices: ['Yes','No'],
-        message: 'Would you like to add an additional Engineer?',
-        name: 'additionalEngineer',
+        type: 'list',
+        choices: ['manager','engineer','intern'],
+        message: 'Would you like to add an additional team member?',
+        name: 'addTeamMember',
     }
 ];
 
@@ -96,22 +104,45 @@ const internQuestions =[
         message: "Please Enter the intern's school name:"
     },
     {
-        type: 'checkbox',
-        choices: ['Yes','No'],
-        message: 'Would you like to add an additional intern?',
-        name: 'additionalIntern',
+        type: 'list',
+        choices: ['manager','engineer','intern'],
+        message: 'Would you like to add an additional team member?',
+        name: 'addTeamMember',
     }
 ];
 
-inquirer.prompt(managerQuestions).then( answers =>{
-    const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNum)
-    employees.push(manager);
-    let addEngineer = answers.addEngineer;
-    console.log(employees);
-    console.log(typeof (addEngineer));
+inquirer.prompt(initialQuestion).then( answers =>{
+    let addTeamMember = answers.addTeamMember;
+    const addManager = () => {
+        if(addTeamMember === 'manager') {
+            inquirer.prompt(managerQuestions).then(answers => {
+                const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNum)
+                employees.push(manager);
+                console.log(employees);
+            })
+        }
+    }
+    const addEngineer = () => {
+        if(addTeamMember === 'engineer') {
+            inquirer.prompt(engineerQuestions).then( answers =>{
+                const engineer = new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.engineerGitHub)
+                employees.push(engineer)
+                console.log(employees);
+            })
+        }
+    }
+    const addIntern = () => {
+        if(addTeamMember === 'intern') {
+            inquirer.prompt(internQuestions).then( answers =>{
+                const intern = new Intern(answers.internName, answers.internID, answers.internEmail, answers.internSchool)
+                employees.push(intern)
+                console.log(employees);
+            })
+        }
+    }
 
 });
-// })
+
 
 
 // Write code to use inquirer to gather information about the development team members,

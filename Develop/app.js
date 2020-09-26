@@ -10,6 +10,109 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");
 
+const employees = [];
+
+
+const managerQuestions =[
+    // start with the manager
+    {
+        type: 'input',
+        name: "managerName",
+        message: "Please enter the manager's name:"
+    },
+    {
+        type: 'input',
+        name: 'managerID',
+        message: "Please Enter the manager's ID:"
+    },
+    {
+        type: "input",
+        name: "managerEmail",
+        message: "What is the manager's email?",
+    },
+    {
+        type: 'input',
+        name: 'managerOfficeNum',
+        message: "Please Enter the managers office number:"
+    },
+    {
+        type: 'checkbox',
+        choices: ['Yes','No'],
+        message: 'Would you like to add an Engineer?',
+        name: 'addEngineer',
+    }
+    ];
+
+const engineerQuestions =[
+
+    {
+        type: 'input',
+        name: "engineerName",
+        message: "Please enter the engineer's name:"
+    },
+    {
+        type: 'input',
+        name: 'engineID',
+        message: "Please Enter the engineer's ID:"
+    },
+    {
+        type: "input",
+        name: "engineerEmail",
+        message: "What is the engineer's email?",
+    },
+    {
+        type: 'input',
+        name: 'engineerGitHub',
+        message: "Please Enter the engineer's gitHub username:"
+    },
+    {
+        type: 'checkbox',
+        choices: ['Yes','No'],
+        message: 'Would you like to add an additional Engineer?',
+        name: 'additionalEngineer',
+    }
+];
+
+const internQuestions =[
+
+    {
+        type: 'input',
+        name: "internName",
+        message: "Please enter the intern's name:"
+    },
+    {
+        type: 'input',
+        name: 'internID',
+        message: "Please Enter the intern's ID:"
+    },
+    {
+        type: "input",
+        name: "internEmail",
+        message: "What is the intern's email?",
+    },
+    {
+        type: 'input',
+        name: 'internSchool',
+        message: "Please Enter the intern's school name:"
+    },
+    {
+        type: 'checkbox',
+        choices: ['Yes','No'],
+        message: 'Would you like to add an additional intern?',
+        name: 'additionalIntern',
+    }
+];
+
+inquirer.prompt(managerQuestions).then( answers =>{
+    const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNum)
+    employees.push(manager);
+    let addEngineer = answers.addEngineer;
+    console.log(employees);
+    console.log(typeof (addEngineer));
+
+});
+// })
+
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)

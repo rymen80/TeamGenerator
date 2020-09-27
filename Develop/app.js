@@ -113,7 +113,10 @@ const addEngineer = () => {
         let addTeamMember = answers.addTeamMember;
         if(addTeamMember === 'intern') {
             addIntern()
-        }
+        }else{
+            const htmlResult = htmlRenderer(employees)
+        };
+
 
     })
 }
@@ -125,7 +128,12 @@ const addIntern = () => {
         let addTeamMember = answers.addTeamMember;
         if( addTeamMember === 'engineer') {
             addEngineer()
-        }
+        }else{
+            const htmlResult = htmlRenderer(employees)
+        };
+
+
+
 
     })
 }
@@ -143,6 +151,10 @@ inquirer.prompt(managerQuestions).then( answers => {
 
 });
 
+const OUTPUT_DIR = path.resolve(__dirname, "output");
+const outputPath = path.join(OUTPUT_DIR, "team.html");
+
+const render = require("./lib/htmlRenderer");
 
 
 // Write code to use inquirer to gather information about the development team members,

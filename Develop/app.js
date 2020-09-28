@@ -5,10 +5,8 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require("./lib/htmlRenderer");
+
 
 const employees = [];
 
@@ -106,17 +104,15 @@ const internQuestions =[
 ];
 
 
-const addEngineer = () => {
-    inquirer.prompt(engineerQuestions).then( answers =>{
+const addEngineer = async () => {
+
+    inquirer.prompt(engineerQuestions).then( answers => {
         const engineer = new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.engineerGitHub)
         employees.push(engineer)
         let addTeamMember = answers.addTeamMember;
-        if(addTeamMember === 'intern') {
+        if (addTeamMember === 'intern') {
             addIntern()
-        }else{
-            const htmlResult = htmlRenderer(employees)
-        };
-
+        }
 
     })
 }
@@ -128,12 +124,7 @@ const addIntern = () => {
         let addTeamMember = answers.addTeamMember;
         if( addTeamMember === 'engineer') {
             addEngineer()
-        }else{
-            const htmlResult = htmlRenderer(employees)
-        };
-
-
-
+        }
 
     })
 }
@@ -144,10 +135,13 @@ inquirer.prompt(managerQuestions).then( answers => {
     if(addTeamMember === 'engineer') {
         addEngineer();
         console.log(employees);
-    }else{
+    }else if (addTeamMember === 'intern'){
         addIntern();
         console.log(employees);
+    }else{
+        fs.writeFileSync(outputPath, render(employees),"utf-8");
     }
+
 
 });
 

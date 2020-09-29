@@ -37,7 +37,7 @@ const managerQuestions =[
     },
     {
         type: 'list',
-        choices: ['manager','engineer','intern'],
+        choices: ['manager','engineer','intern', 'no'],
         message: 'Would you like to add an additional team member?',
         name: 'addTeamMember',
     }
@@ -67,7 +67,7 @@ const engineerQuestions =[
     },
     {
         type: 'list',
-        choices: ['manager','engineer','intern'],
+        choices: ['manager','engineer','intern', 'no'],
         message: 'Would you like to add an additional team member?',
         name: 'addTeamMember',
     }
@@ -97,53 +97,68 @@ const internQuestions =[
     },
     {
         type: 'list',
-        choices: ['manager','engineer','intern'],
+        choices: ['manager','engineer','intern', 'no'],
         message: 'Would you like to add an additional team member?',
         name: 'addTeamMember',
     }
 ];
 
+const addManager = async () => {
+    inquirer.prompt(managerQuestions).then( answers => {
+    const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNum)
+    employees.push(manager);
+
+        let addTeamMember = answers.addTeamMember;
+        if (addTeamMember === 'intern') {
+            addIntern()
+        }else if( addTeamMember === 'engineer') {
+            addEngineer()
+        }else{
+            fs.writeFileSync(outputPath, render(employees),"utf-8");}
+
+    })
+}
 
 const addEngineer = async () => {
 
     inquirer.prompt(engineerQuestions).then( answers => {
         const engineer = new Engineer(answers.engineerName, answers.engineerID, answers.engineerEmail, answers.engineerGitHub)
-        employees.push(engineer)
+        employees.push(engineer);
         let addTeamMember = answers.addTeamMember;
         if (addTeamMember === 'intern') {
             addIntern()
-        }
+        }else if( addTeamMember === 'manager') {
+            addManager()
+        }else{
+            fs.writeFileSync(outputPath, render(employees),"utf-8");}
 
     })
 }
-
-const addIntern = () => {
+const addIntern = async () => {
     inquirer.prompt(internQuestions).then( answers =>{
         const intern = new Intern(answers.internName, answers.internID, answers.internEmail, answers.internSchool)
         employees.push(intern)
         let addTeamMember = answers.addTeamMember;
         if( addTeamMember === 'engineer') {
             addEngineer()
-        }
+        }else if( addTeamMember === 'manager') {
+            addManager()
+        }else{
+            fs.writeFileSync(outputPath, render(employees),"utf-8");}
 
     })
 }
 
 
-inquirer.prompt(managerQuestions).then( answers => {
-    let addTeamMember = answers.addTeamMember;
-    if(addTeamMember === 'engineer') {
-        addEngineer();
-        console.log(employees);
-    }else if (addTeamMember === 'intern'){
-        addIntern();
-        console.log(employees);
-    }else{
-        fs.writeFileSync(outputPath, render(employees),"utf-8");
-    }
+    addManager()
 
 
-});
+
+        // fs.writeFileSync(outputPath, render(employees),"utf-8");
+
+
+
+
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");

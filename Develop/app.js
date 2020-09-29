@@ -1,3 +1,5 @@
+
+// dependencies
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
@@ -5,10 +7,10 @@ const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-
+// empty array to push our team member to.
 const employees = [];
 
-
+// questions to ask manager
 const managerQuestions =[
     // start with the manager
     {
@@ -38,7 +40,7 @@ const managerQuestions =[
         name: 'addTeamMember',
     }
     ];
-
+// question to ask engineer
 const engineerQuestions =[
 
     {
@@ -68,7 +70,7 @@ const engineerQuestions =[
         name: 'addTeamMember',
     }
 ];
-
+// question to ask intern
 const internQuestions =[
 
     {
@@ -98,7 +100,7 @@ const internQuestions =[
         name: 'addTeamMember',
     }
 ];
-
+// function to call when user wants to input a manager
 const addManager = async () => {
     inquirer.prompt(managerQuestions).then( answers => {
     const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.managerOfficeNum)
@@ -109,7 +111,7 @@ const addManager = async () => {
 
     })
 }
-
+// function to call when user wants to input a engineer
 const addEngineer = async () => {
 
     inquirer.prompt(engineerQuestions).then( answers => {
@@ -119,6 +121,7 @@ const addEngineer = async () => {
         checkAddMember(addTeamMember)
     })
 }
+// function to call when user wants to input a intern
 const addIntern = async () => {
     inquirer.prompt(internQuestions).then( answers =>{
         const intern = new Intern(answers.internName, answers.internID, answers.internEmail, answers.internSchool)
@@ -128,6 +131,7 @@ const addIntern = async () => {
 
     })
 }
+//function to call that checks if a new team member should be added and if not writes the file.
 const checkAddMember = newMember => {
     switch (newMember) {
         case 'manager':
@@ -148,11 +152,12 @@ const checkAddMember = newMember => {
     }
 
 }
-
+// call the add manger app to run the program
     addManager()
 
-
+// creates an path to a a directory called output
 const OUTPUT_DIR = path.resolve(__dirname, "output");
+// creates a new html file that is written to the output directory
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
 const render = require("./lib/htmlRenderer");

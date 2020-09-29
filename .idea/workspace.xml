@@ -37,8 +37,6 @@
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/me.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/09-FloatLayout-Activity/Solved/floats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/teamgeneratorGif.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develop/output/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../12-MySQL/01-Activities/08-playlistRead/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../12-MySQL/01-Activities/08-playlistRead/playlist.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../12-MySQL/01-Activities/12-Top5000Schema/Unsolved/schema.sql" afterDir="false" />
@@ -56,8 +54,6 @@
       <change beforePath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../01-HTML-Git-CSS/01-Activities/07-RelativePaths-Activity/Unsolved/RelativePaths_WorkingExample/html-bio-with-css.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Develop/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Develop/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Develop/output/team.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +87,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Develop" />
     </key>
@@ -118,7 +117,8 @@
       <workItem from="1601049914118" duration="9887000" />
       <workItem from="1601138049376" duration="1680000" />
       <workItem from="1601154459883" duration="3286000" />
-      <workItem from="1601158332693" duration="19163000" />
+      <workItem from="1601158332693" duration="19313000" />
+      <workItem from="1601396679926" duration="495000" />
     </task>
     <servers />
   </component>
